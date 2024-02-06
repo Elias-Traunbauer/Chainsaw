@@ -1,0 +1,33 @@
+{
+  "name": "chainsaw",
+  "version": "1.0.0",
+  "description": "Frontend part of the chainsaw mini framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elias-Traunbauer/Chainsaw.git"
+  },
+  "keywords": [
+    "chainsaw",
+    "chainsawfrontend",
+    "chainsaw-frontend"
+  ],
+  "author": "Traunbauer Elias, Rausch Elias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Elias-Traunbauer/Chainsaw/issues"
+  },
+  "homepage": "https://github.com/Elias-Traunbauer/Chainsaw#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "tsc": "^2.0.4",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/node-sass": "^4.11.7",
+    "@types/react": "^18.2.54"
+  }
+}
