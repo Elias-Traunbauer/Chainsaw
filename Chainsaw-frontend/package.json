@@ -1,10 +1,11 @@
 {
-  "name": "chainsaw",
-  "version": "1.0.0",
+  "name": "chainsaw-frontend",
+  "version": "1.0.14",
   "description": "Frontend part of the chainsaw mini framework",
-  "main": "index.js",
+  "main": "dist/bundle.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --watch"
   },
   "repository": {
     "type": "git",
@@ -21,13 +22,27 @@
     "url": "https://github.com/Elias-Traunbauer/Chainsaw/issues"
   },
   "homepage": "https://github.com/Elias-Traunbauer/Chainsaw#readme",
-  "dependencies": {
+  "peerDependencies": {
     "react": "^18.2.0",
-    "tsc": "^2.0.4",
-    "typescript": "^5.3.3"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.23.9",
+    "@babel/preset-env": "^7.23.9",
+    "@babel/preset-react": "^7.23.3",
+    "@babel/preset-typescript": "^7.23.3",
     "@types/node-sass": "^4.11.7",
-    "@types/react": "^18.2.54"
+    "@types/react": "^18.2.55",
+    "@types/react-dom": "^18.2.19",
+    "babel-loader": "^8.3.0",
+    "css-loader": "^6.10.0",
+    "node-sass": "^9.0.0",
+    "sass-loader": "^14.1.0",
+    "style-loader": "^3.3.4",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.3.3",
+    "webpack": "^5.90.1",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.9.2"
   }
 }

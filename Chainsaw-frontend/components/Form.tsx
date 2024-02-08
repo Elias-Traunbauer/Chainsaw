@@ -1,8 +1,9 @@
 import React, { ReactElement, useEffect, useState } from 'react';
-import '#/styles/Form.module.scss';
-import { FormField } from '#/models/FormField';
+import '../styles/Form.module.scss';
+import { FormField } from '../models/FormField';
+import { FormProps } from '../models/FormProps';
 
-export default function Form({ children, errorModel, onSubmit }: FormProps) {
+export default function Formm({ children, errorModel, onSubmit }: FormProps) {
 
     const [fields, setFields] = useState<FormField[]>([]);
 
